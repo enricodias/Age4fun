@@ -1,0 +1,50 @@
+<?php
+
+$lang = array (
+
+// 1.2
+
+'WHERE_toplist'         =>  "Vento a lista dos melhores sites",
+'s_by'    => "Organizar por: ",
+'s_sort_key_click' => "último clique",
+'s_sort_key_name'  => "nome de usuário",
+'s_sort_order_asc'   => "ordem crescente",
+'s_sort_order_desc'  => "ordem decrescente",
+'s_show_mem_guest' => "somente visitantes",
+'s_show_mem_reg' => "somente usuários registrados",
+'s_show_mem_all'    => "todos os usuários",
+'s_go' => "Atualizar",
+'s_by'    => "Organizar por: ",
+WHERE_SF					=>	"Vendo o fórum",
+WHERE_SR					=>	"Vendo as regras do fórum",
+WHERE_ST					=>	"Vendo tópico",
+WHERE_Login				=>	"Efetuando login...",
+WHERE_Post				=>	"Postando no fórum",
+WHERE_Reg	 				=>	"Registrando...",
+WHERE_Online				=>	"Vendo a lista de usuários online",
+WHERE_Members				=>	"Vendo a lista de usuários",
+WHERE_Help				=>	"Vendo os arquivos de ajuda",
+WHERE_Search				=>	"Procurando...",
+WHERE_Print				=>	"Imprimindo um tópico",
+WHERE_Forward				=>	"Enviando por e-mail o tópico",
+WHERE_Msg				=>	"Usando o messenger",
+WHERE_UserCP				=>	"Usando o painel de controle",
+WHERE_Mail	 				=>	"Enviando um e-mail para um usuário",
+WHERE_Invite				=>	"Convidando um usuário para o fórum",
+WHERE_ICQ	 				=>	"Enviando uma mensagem de ICQ",
+WHERE_AOL 				=>	"Enviando uma mensagem via AIM",
+WHERE_Profile				=>	"Vendo o perfil dos usuários",
+WHERE_Stats				=>	"Vendo as estatísticas",
+WHERE_ModCP				=>	"Usando o ModPC",
+member_name				=>	"Nome",
+guest						=>	"Visitante",
+board_index					=>	"Vendo o índice do fórum",
+n_a						=>	"[ N/A ]",
+pages						=>	"Páginas:",
+'time'						=>	"Data/Hora",
+where					=>	"Onde está no momento",
+user_ops					=>	"Opções",
+page_title					=>	"Usuários online",
+
+);
+?>

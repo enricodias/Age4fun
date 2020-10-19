@@ -1,0 +1,2 @@
+<HTML><HEAD><TITLE>Age4fun.com - Age of Empires 2 - Age of Kings - Age of Empires 2 - Age of Kings</TITLE>
+<SCRIPT>if (parent.frames.length == 0) {top.document.location.href = "http://www.age4fun.com/home/index.php?page=newsletter"}</SCRIPT></head> <body></BODY></HTML>

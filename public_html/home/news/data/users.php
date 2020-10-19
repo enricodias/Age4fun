@@ -1,0 +1,5 @@
+<?php if (!defined("WsSys_Token")) {echo "<title>ERRO - Acesso Negado!</title><font face=\"verdana\" size=\"2\" color=\"#CC0000\"><b>[ Erro ]</b> Você não pode acessar este arquivo!</font>"; exit; } ?>
+id|user|pwd|data:vars|perms:vars
+51e757de96|skarecrow|72481f6db0a91814d0feb215d14192b0|name:Skarecrow;mail:skarecrow%40age4fun.com;active:1;posts:0;icq:167446120;field1:skarecrow008%40hotmail.com;field2:;field3:;upload_maxsize:2097152;upload_extensions:%2A;noedv:0;usequeue:0;lastlogin:1155946602;lastpost:1122166994|admin:1
+cb9ea2b04f|tdk_koalla|6bccba42213f2445a26751c34c455767|name:Leandro;mail:lhp_rlz%40hotmail.com;icq:;field1:lhp_rlz%40hotmail.com;upload_maxsize:102400;upload_extensions:swf%2Cgif%2Cjpg%2Cjpeg;posts:0;active:0;lastlogin:1125278969;lastpost:1125279148|all:post%2Ceditown%2Ceditall%2Ccomments%2Ccgdate%2Cusehtml;general:categories%2Cbackup%2Ceditqueue
+a2ff71e7aa|lunameyer|3b83fb4bc71cdc27c8c68213502ea777|name:NWO_Morrigan;mail:lunameyer%40gmail.com;icq:;field1:del.msn%40hotmail.com;upload_maxsize:512000;upload_extensions:;posts:6;active:1;lastlogin:1159837720;usequeue:0;noedv:0;lastpost:1156002729|admin:1

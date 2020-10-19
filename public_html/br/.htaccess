@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+redirectMatch 301 ^(.*)$ http://www.age4fun.com$1
+</IfModule>

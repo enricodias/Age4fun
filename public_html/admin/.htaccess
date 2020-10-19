@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Cpanel"
+
+AuthUserFile "/home/syndi/.htpasswds/admin/passwd"
+
+
+require valid-user

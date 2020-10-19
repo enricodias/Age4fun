@@ -1,0 +1,115 @@
+<html>
+
+
+
+<head>
+
+<title>Age Of Empires - Age4fun.com</title>
+
+<META content=Age4fun.com name=Age4fun.com>
+
+<META content="Página de Recorded Games do jogo Age of Empires 2." name=description>
+
+<META content="estrategia, age, aok, aoe, age of empires, age2, aoe2, the conqueros, conqueros, rgs, recorded games, rg's, jogo gravado, jogos gravados." name=keywords>
+
+
+
+<style>
+
+<!--
+
+.link {text-decoration: underline}
+
+-->
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+            <div class="body">
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">&nbsp;
+
+              </p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">
+
+              <b><font face="Verdana" size="3" color="#333333">Recorded Games</font></b></p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">
+
+              <b><font face="Verdana" size="1" color="#333333">Obs: Esses Rg's 
+
+              só funcionam com o Patch C.</font></b></p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">&nbsp;
+
+              </p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">
+
+<blockquote>
+
+<? 
+
+$dirname = "./rgs"; 
+
+$data_dir_obj = dir ($dirname);
+//$selected[$this->Conf->Current_file] = "SELECTED";
+while ($my_files[] = $data_dir_obj->read());
+
+sort($my_files);
+
+while ($file=next($my_files)) { 
+      if (ereg("^\.{1,2}$", $file)){ 
+         continue; 
+      }
+      if (substr($file,-4) == ".zip"){ 
+      $my_fullname = "{$data_dir_obj->path}/$file"; 
+      $ret .= "<a href=\"http://www.age4fun.com/home/rgs/$file\"><b><font color=\"#333333\" face=\"Verdana\" size=\"2\">$file</font></b></a><br>"; 
+      }
+   } 
+   $data_dir_obj->close(); 
+
+
+    echo $ret; 
+
+?>
+
+</blockquote>
+
+              </p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; ">&nbsp;
+
+              </p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; " align="center">
+
+              <font face="Verdana" size="1"><i><font color="#333333">Veja mais 
+
+              rgs no nosso fórum! </font>
+
+              <a href="http://www.age4fun.com/forum"><font color="#333333">
+
+              www.age4fun.com/forum</font></a></i></font></p>
+
+              <p class="MsoNormal" style="margin:0 10; text-indent: 14.2pt; " align="center">&nbsp;
+
+              </p>
+
+              </div>
+
+
+
+            </body>
+
+
+
+</html>

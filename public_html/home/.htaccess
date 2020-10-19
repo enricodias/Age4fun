@@ -1,0 +1,17 @@
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE application/x-javascript text/css text/javascript text/html text/plain text/xml
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+ExpiresActive On
+ExpiresDefault "access plus 1 day"
+ExpiresByType image/gif "modification plus 2 week"
+ExpiresByType image/jpg "modification plus 2 weeks"
+ExpiresByType image/jpeg "modification plus 2 weeks"
+ExpiresByType image/png "modification plus 2 weeks"
+ExpiresByType image/bmp "modification plus 2 weeks"
+ExpiresByType application/x-shockwave-flash "modification plus 2 weeks"
+
+FileETag MTime Size

@@ -1,0 +1,149 @@
+<?php
+
+$lang['pm_email_subject']  = "Você tem uma nova mensagem!";
+
+$lang['w_v_pages']  = "Páginas";
+$lang['w_v_warnby']  = "Alertado por";
+$lang['w_v_none']  = "Não há notas salvas para este usuário";
+$lang['w_v_add']  = "Adicionado ao nível de alerta";
+$lang['w_v_minus']  = "Removido do nível de alerta";
+$lang['w_v_notes']  = "Notas";
+$lang['w_v_warned_on']  = "Alertado em";
+$lang['w_v_title']  = "Logs de alerta salvos";
+$lang['w_done_t']  = "Resultado do ajuste de alerta";
+$lang['w_done_te']  = "O nível de alerta de %s foi alterado com sucesso, e a ação foi armazenada em log.";
+$lang['w_done_home']  = "Voltar para o índice do fórum";
+$lang['w_done_forum']  = "Voltar para o fórum";
+$lang['w_done_topic']  = "Voltar para o tópico";
+$lang['errors_found']  = "Erro";
+$lang['we_no_reason']  = "Você deve informar um motivo para este ajuste de alerta na seção relevante abaixo";
+$lang['we_no_subject']  = "Você deve informar um assunto para a mensagem / e-mail";
+$lang['w_title']  = "Centro de alerta de usuário";
+$lang['w_restricted']  = "Restrição em andamento, o tempo restante foi recalculado";
+$lang['w_warnfor']  = "Painel de alerta de usuário para";
+$lang['w_complete']  = "Por favor preencha completamente o formulário abaixo";
+$lang['w_adjust_level']  = "Ajuste do nível de alerta do usuário";
+$lang['w_add']  = "Aumentar o nível de alerta";
+$lang['w_remove']  = "Diminuir o nível de alerta";
+$lang['w_modq']  = "Requerir visualização de um moderador em cada post novo?";
+$lang['w_modq_i']  = "Requerir indefididamente";
+$lang['w_day']  = "Dias";
+$lang['w_hour']  = "Horas";
+$lang['w_resposts']  = "Desativar as permissões de postagem deste usuário?";
+$lang['w_resposts_i']  = "Desativar indefinidamente";
+$lang['w_suspend']  = "Suspender a conta deste usuário?";
+$lang['w_orfor']  = "ou por";
+$lang['w_susfor']  = "Suspender por";
+$lang['w_reason']  = "Motivo para este ajuste";
+$lang['w_reason2']  = "Esta seção deve ser preenchida";
+$lang['w_contact']  = "Enviar uma mensagem ao usuário";
+$lang['w_c']  = "Método";
+$lang['w_c_subj']  = "Assunto da mensagem / e-mail";
+$lang['w_c_e']  = "E-mail";
+$lang['w_c_p']  = "Mensagem interna";
+$lang['w_submit']  = "Alterar o nível de alerta";
+$lang['w_contact2']  = "Deixe em branco para não contactar o usuário";
+$lang['mm_applied']  = "multi-moderação \'%s\' aplicada ao tópico.";
+$lang['st_top']  = "Dividir tópico";
+$lang['st_explain']  = "Dividir um tópico permite a você selecionar posts para serem movidos para um novo tópico. Por favor especifique um título e descrição para o novo tópico, e seu fórum de destino antes de continuar. <b><u>Obs:</u></b> Posts longos são revertidos para tags de código e encurtados para previnir páginas longas";
+$lang['st_forum']  = "Fórum para o novo tópico";
+$lang['st_submit']  = "Dividir os posts selecionados";
+$lang['st_post']  = "Rever os posts";
+$lang['st_split']  = "Mover este post";
+$lang['st_top_bit']  = "Postado por <b>%s</b> em <b>%s</b>";
+$lang['st_redirect']  = "O tópico foi dividido, retornando para o fórum de origem";
+$lang['th_title']  = "Histórico do tópico";
+$lang['th_topic']  = "Título";
+$lang['th_desc']  = "Descrição";
+$lang['th_start_date']  = "Iniciado em";
+$lang['th_start_name']  = "Iniciado por";
+$lang['th_last_date']  = "Último post em";
+$lang['th_last_name']  = "Último post por";
+$lang['th_avg_post']  = "Média de posts por dia";
+$lang['ml_title']  = "Log de ações de moderadores";
+$lang['ml_name']  = "Usuário";
+$lang['ml_desc']  = "Descrição";
+$lang['ml_date']  = "Data";
+$lang['ml_none']  = "Não há ações neste tópico";
+$lang['mt_top']  = "Unir tópico";
+$lang['mt_explain']  = "Unir tópicos permite a você \'mover\' todos os posts de outro tópico para este. O novo tópico será ordenado em ordem cronológica, certifique-se de que este é o efeito desejado antes de continuar. Enquetes e informações sobre os votos não serão unidas.";
+$lang['mt_new_title']  = "Título do tópico";
+$lang['mt_new_desc']  = "Descrição";
+$lang['mt_tid']  = "<b>Informe a URL do tópico que você quer unir a este</b><br />(Dica: você pode simplesmente copiar a URL do seu navegador quando estiver vendo o tópico, e colá-la aqui)";
+$lang['mt_submit']  = "Unir tópicos";
+$lang['mt_redirect']  = "Os tópicos foram unidos, retornando ao novo tópico";
+$lang['ts_title']  = "Assinaturas do tópico";
+$lang['ts_count']  = "%s usuários(s) assinaram este tópico, você deseja remover todas estas assinaturas?";
+$lang['ts_submit']  = "Remover todas as assinaturas";
+$lang['ts_none']  = "Não há assinaturas de nenhum usuário para este tópico. Você ainda pode prosseguir, mas não fará nenhuma diferença.";
+$lang['ts_redirect']  = "todas as assinaturas deste tópico foram removidas";
+$lang['yes']  = "Sim";
+$lang['no']  = "Não";
+$lang['move_exp']  = "Selecione um fórum de destino e método que deseja usar";
+$lang['pe_unused']  = "Não usada";
+$lang['pe_question']  = "Pergunta da enquete";
+$lang['pe_top']  = "Editando a enquete";
+$lang['pe_option']  = "Opção";
+$lang['pe_submit']  = "Salvar edição";
+$lang['pe_pollonly']  = "Fazer somente a enquete? (não permitir respostas)";
+$lang['pe_yes']  = "Sim";
+$lang['pe_no']  = "Não";
+$lang['pe_done']  = "Enquete editada";
+$lang['pd_top']  = "Removendo a enquete";
+$lang['pd_text']  = "Por favor confirme a remoção da enquete clicando no botão abaixo";
+$lang['pd_submit']  = "Remover esta enquete";
+$lang['pd_redirect']  = "Enquete removida";
+$lang['post_deleted']  = "post removido.";
+$lang['submit_move']  = "Mover este tópico";
+
+$lang['MOVE_TOPIC']  = "Mover este tópico";
+$lang['PIN_TOPIC']  = "Destacar tópico";
+$lang['UNPIN_TOPIC']  = "Remover destaque do tópico";
+$lang['OPEN_TOPIC']  = "Reabrir este tópico";
+$lang['CLOSE_TOPIC']  = "Fechar este tópico";
+$lang['DELETE_TOPIC']  = "Remover este tópico";
+$lang['DELETE_POST']  = "Remover posts";
+
+$lang['top_edit']  = "Editar o tópico";
+$lang['top_move']  = "Mover o tópico";
+$lang['top_open']  = "Reabrir o tópico"; // Não existe uso (???)
+$lang['top_close']  = "Fechar o tópico";
+$lang['t_edit']  = "Editar o tópico";
+$lang['t_delete']  = "Remover o tópico";
+
+$lang['p_moved']  = "tópico movido.";
+$lang['p_pinned']  = "tópico destacado.";
+$lang['p_edited']  = "tópico editado.";
+$lang['p_opened']  = "tópico reaberto.";
+$lang['p_pdeleted']  = "post removido.";
+$lang['p_unpinned']  = "destaque do tópico removido.";
+
+$lang['t_open']  = "Abrir o tópico"; // Não existe uso (???)
+$lang['submit_open']  = "Reabrir este tópico"; // Não existe uso (???)
+
+$lang['t_close']  = "Fechar tópico"; // Não existe uso (???)
+$lang['close_topic']  = "<b>NOTA:</b> Você não precisa postar uma mensagem - é opcional"; // Não existe uso (???)
+$lang['submit_close']  = "Fechar este tópico"; // Não existe uso (???)
+$lang['p_closed']  = "tópico fechado.";
+
+$lang['t_move']  = "Mover tópico";
+$lang['move_from']  = "Mover de";
+$lang['to']  = "para";
+$lang['leave_link']  = "Deixar um link para o novo tópico no fórum de origem?";
+
+$lang['top_delete']  = "Remover o tópico";
+$lang['delete_topic']  = "Somente continue se você deseja remover este tópico. Não haverá outras telas de confirmação.";
+$lang['delete_old']  = "Opção do fórum de destino:"; // Não existe uso (???)
+$lang['submit_delete']  = "Remover este tópico";
+$lang['p_deleted']  = "tópico removido.";
+
+$lang['edit_topic']  = "Editando detalhes do tópico";
+$lang['edit_f_title']  = "Título do tópico";
+$lang['edit_f_desc']  = "Descrição";
+$lang['submit_edit']  = "Editar este tópico";
+
+$lang['final_rebuild']  = "<#DELETE_COUNT#> posts duplicados removidos. O contador de respostas foi alterado para <#REPLY_COUNT#>.";
+$lang['post_optional']  = "<b>NOTA:</b> Você não precisa postar uma mensagem - é opcional"; // Não existe uso (???)
+$lang['post_icon']  = "<b>Ícones do post</b>";
+
+?>

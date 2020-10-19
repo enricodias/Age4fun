@@ -1,0 +1,151 @@
+/* FIX IE6 Scrollbars bug - Leave this in! */
+html { overflow-x: auto; } 
+
+/* Body entry, change forum page background colour, default font, font size, etc. Leave text-align:center to center board content
+   #ipwrapper will set text-align back to left for the forum. Any other tables / divs you use must use text-align:left to re-align
+   the content properly. This is a work around to a known Internet Explorer bug */
+BODY { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #000; margin:0px;padding:0px;background-color:#F9F9F9; text-align:center }
+TABLE, TR, TD { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #000; }
+
+/* MAIN WRAPPER: Adjust forum width here. Leave margins alone to auto-center content */
+#ipbwrapper { text-align:left; width:95%; margin-left:auto;margin-right:auto }
+
+a:link, a:visited, a:active { text-decoration: underline; color: #000 }
+a:hover { color: #616161; text-decoration: underline; }
+
+fieldset.search { padding:6px; line-height:150% }
+label      { cursor:pointer; }
+form       { display:inline; }
+img        { vertical-align:middle; border:0px }
+img.attach { border:2px outset #A9A9A9; padding:2px }
+
+.googleroot  { padding:6px; line-height:130% }
+.googlechild { padding:6px; margin-left:30px; line-height:130% }
+.googlebottom, .googlebottom a:link, .googlebottom a:visited, .googlebottom a:active { font-size:11px; color: #333333; }
+.googlish, .googlish a:link, .googlish a:visited, .googlish a:active { font-size:14px; font-weight:bold; color:#996633; }
+.googlepagelinks { font-size:1.1em; letter-spacing:1px }
+.googlesmall, .googlesmall a:link, .googlesmall a:active, .googlesmall a:visited { font-size:10px; color:#515862 }
+
+li.helprow { padding:0px; margin:0px 0px 10px 0px }
+ul#help    { padding:0px 0px 0px 15px }
+
+option.cat { font-weight:bold; }
+option.sub { font-weight:bold;color:#5C5C5C }
+.caldate   { text-align:right;font-weight:bold;font-size:11px;color:#959595;background-color:#F4E8DB;padding:4px;margin:0px }
+
+.warngood { color:#005B01 }
+.warnbad  { color:#CC3333 }
+
+#padandcenter { margin-left:auto;margin-right:auto;text-align:center;padding:14px 0px 14px 0px }
+
+#profilename { font-size:20px; font-weight:bold; }
+#calendarname { font-size:18px; font-weight:bold; }
+
+#photowrap { padding:6px; }
+#phototitle { font-size:24px; border-bottom:1px solid silver }
+#photoimg   { text-align:center; margin-top:15px } 
+
+#ucpmenu    { line-height:150%;width:22%; border:1px solid #996633;background-color: #FFFBF6 }
+#ucpmenu p  { padding:2px 5px 6px 9px;margin:0px; }
+#ucpcontent { background-color: #FFFBF6; border:1px solid #996633;line-height:150%; width:auto }
+#ucpcontent p  { padding:10px;margin:0px; }
+
+#ipsbanner { position:absolute;top:1px;right:5%; }
+#logostrip { border:1px solid #000000;background-color: #;background-image:url(style_images/<#IMG_DIR#>/tile_back.gif);padding:0px;margin:0px; }
+
+#submenu   { border:1px solid #BABABA;background-color: #FBFBFB; background-image: url(style_images/<#IMG_DIR#>/tile_back3.jpg); font-size:10px;margin:3px 0px 3px 0px;color:#996600;font-weight:bold;}
+
+#submenu a:link, #submenu  a:visited, #submenu a:active { font-weight:bold;font-size:10px; color: #7B5400; text-decoration: none; }
+
+#submenu a:hover, #submenu a:active { font-weight:bold;font-size:10px; color: #B07800; text-decoration: none; }
+
+#userlinks { border:1px solid #E0E0E0; background-color: #F9F9F9; background-image: url(style_images/<#IMG_DIR#>/tile_back2.gif) }
+
+#navstrip  { font-weight:bold;padding:6px 0px 6px 0px; }
+
+.activeuserstrip { background-color:#FFFBF6; padding:6px }
+
+/* Form stuff (post / profile / etc) */
+.pformstrip { background-color: #DCDCDC; color:#343434;font-weight:bold;padding:7px;margin-top:1px }
+.pformleft  { background-color: #EDEDED; padding:6px; margin-top:1px;width:25%; border-top:1px solid Silver; border-right:1px solid #000000; }
+.pformleftw { background-color: #EDEDED; padding:6px; margin-top:1px;width:40%; border-top:1px solid #000000; border-right:1px solid #828282; }
+.pformright { background-color: #EDEDED; padding:6px; margin-top:1px;border-top:1px solid #000000; }
+
+/* Topic View elements */
+.signature   { font-size: 10px; color: #888888; line-height:150% }
+.postdetails { font-size: 10px; }
+.postcolor   { font-size: 12px; line-height: 160% }
+
+.normalname { font-size: 12px; font-weight: bold; color: #84582C }
+.normalname a:link, .normalname a:visited, .normalname a:active { font-size: 12px }
+.unreg { font-size: 11px; font-weight: bold; color: #BB2F00 }
+
+.post1 { background-color: #FFFFFF }
+.post2 { background-color: #FBFBFB }
+.postlinksbar { background-color:#DCDCDC;padding:7px;margin-top:1px;font-size:10px; background-image: url(style_images/<#IMG_DIR#>/tile_sub.gif) }
+
+.postlinksbar2 { background-color:#DCDCDC;padding:7px;margin-top:1px;font-size:10px; background-image: url(style_images/<#IMG_DIR#>/tile_back3.jpg) }
+
+/* Common elements */
+.row1 { background-color: #ECECEC }
+.row2 { background-color: #F8F8F8 }
+.row3 { background-color: #EDEDED }
+.row4 { background-color: #FFFBF6 }
+
+.darkrow1 { background-color: Silver; color:#000000; }
+.darkrow2 { background-color: Silver; color:#805600; }
+.darkrow3 { background-color: #F5F5F5; color:#000000; }
+
+.hlight { background-color: #CCCCCC }
+.dlight { background-color: #F8F8F8 }
+
+.titlemedium { font-weight:bold; color:#FFFFFF; padding:7px; margin:0px; background-image: url(style_images/<#IMG_DIR#>/tile_sub.gif) }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #FFFFFF }
+
+/* Main table top (dark blue gradient by default) */
+.maintitle { vertical-align:middle;font-weight:bold; color:#996600; padding:5px 5px 5px 5px; background-image: url(style_images/<#IMG_DIR#>/tile_back.gif) }
+.maintitle a:link, .maintitle  a:visited, .maintitle  a:active { text-decoration: none; color: #996600} }
+.maintitle a:hover { text-decoration: underline }
+
+.maintitleprofile { vertical-align:middle;font-weight:bold; color: #996600; letter-spacing:0px; padding:10px 0px 8px 5px; background-image: url(style_images/<#IMG_DIR#>/profile_tile.gif); }
+
+.maintitleprofile a:link, .maintitle  a:visited, .maintitle  a:active { text-decoration: none; color: #996600}
+
+.maintitleprofile a:hover { text-decoration: underline }
+
+/* tableborders gives the white column / row lines effect */
+.plainborder { border:1px solid #84572A;background-color:#FFFBF6 }
+.plainborder2 { border:1px solid #84572A;background-color: #FFFFFF; }
+.tableborder { border:1px solid #84572A;background-color:#FFF; padding:0; margin:0 }
+.tablefill   { border:1px solid Silver;background-color:#F4EBE2;padding:6px;  }
+.tablepad    { background-color:#FFFBF6;padding:6px }
+.tablebasic  { width:100%; padding:0px 0px 0px 0px; margin:0px; border:0px }
+
+.tablepadqr   { background-color: #F8F2EC; }; padding:6px }
+
+.wrapmini    { float:left;line-height:1.5em;width:30% }
+.pagelinks   { float:left;line-height:1.2em;width:40% }
+
+.desc { font-size:10px; color:#434343 }
+.edit { font-size: 9px }
+
+
+.searchlite { font-weight:bold; color:#E80000; background-color:#FEFF44 }
+
+#QUOTE { white-space:normal; font-family: Verdana, Arial; font-size: 10px; color: #666666; background-color: #F0E3D6; border: 1px solid Silver; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+#CODE  { white-space:normal; font-family: Courier, Courier New, Verdana, Arial;  font-size: 10px; color: #5D3F00; background-color: #F4EBE2; border: 1px solid #000; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px }
+
+.codebuttons  { font-size: 10px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+.forminput, .textinput, .radiobutton, .checkbox  { font-size: 11px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+
+.thin { padding:6px 0px 6px 0px;line-height:140%;margin:2px 0px 2px 0px;border-top:1px solid #FFF;border-bottom:1px solid #FFF }
+
+.skinby { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px;  background-color: #FFFBF6 }
+
+.purple { color:#700071;font-weight:bold }
+.red    { color:#C80000;font-weight:bold }
+.green  { color:#005B01;font-weight:bold }
+.blue   { color:#003399;font-weight:bold }
+.orange { color:#DD8500;font-weight:bold }

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Erro: 500 - Erro interno do servidor.</title>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="587" height="81" id="AutoNumber1">
+    <tr>
+      <td width="58" height="81">
+      <font face="Verdana" size="2">
+      <img border="0" src="http://www.age4fun.com/images/error.jpg" width="163" height="177"></font></td>
+      <td width="523" height="81">
+      <blockquote>
+        <b><font face="Verdana" size="2">Ops! Ocorreu um 
+      erro...</font></b><p><font face="Verdana" size="2">500: Erro interno do 
+        servidor.<br>Aconteceu um erro interno nos nossos servidores, entre em 
+        contato com o administrador.</font><p><font face="Verdana" size="2">
+        <a href="mailto:supote@age4fun.com"><font color="#000000">
+        supote@age4fun.com</font></a></font><p><font face="Verdana" size="2">
+        <!--#echo var="REMOTE_ADDR" --></font></blockquote>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>

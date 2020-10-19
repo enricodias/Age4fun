@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^downloads.age4fun.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.downloads.age4fun.com$
+RewriteRule ^(.*)$ http://www.age4fun.com/home/index.php?page=downloads [R=301,L]
+

@@ -1,0 +1,10 @@
+/* CSS Rolagem */
+BODY {
+scrollbar-face-color: #dddddd;
+scrollbar-highlight-color: #eaeaea;
+scrollbar-shadow-color: #4a4a4a;
+scrollbar-3dlight-color: #4a4a4a;
+scrollbar-arrow-color: #4a4a4a;
+scrollbar-track-color: #dddddd;
+scrollbar-darkshadow-color: #dddddd;
+}

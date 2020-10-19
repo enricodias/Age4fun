@@ -1,0 +1,50 @@
+<?php
+
+$lang['integ_msg']  = "Integrity Messenger:";
+$lang['rating_level']  = "Classificação";
+$lang['warn_level']  = "Alerta";
+$lang['photo_title']  = "Foto";
+$lang['ac_close']  = "Fechar cartão";
+$lang['ac_download']  = "Fazer download deste cartão";
+$lang['user_local_time']  = "Horário local:";
+$lang['head_title']  = "Exibindo o perfil do usuário";
+$lang['head_contact']  = "Detalhes de contato";
+$lang['head_posts']  = "Informações de postagem";
+$lang['head_info']  = "Informações do usuário";
+$lang['no_info']  = "<i>Sem Informação</i>";
+$lang['click_here']  = "<i>Clique Aqui</i>";
+$lang['private']  = "<i>Privado</i>";
+$lang['active_stats']  = "Estatísticas de atividade";
+$lang['total_posts']  = "Total de posts:";
+$lang['joined']  = "Data de registro:";
+$lang['posts_per_day']  = "Posts por dia:";
+$lang['total_percent']  = "do total de posts do fórum";
+$lang['fav_forum']  = "Mais ativo em:";
+$lang['fav_posts']  = "posts neste fórum";
+$lang['fav_percent']  = "dos posts deste usuário";
+$lang['communicate']  = "Dados de contato";
+$lang['info']  = "Outras informações";
+$lang['post_detail']  = "Detalhes dos posts";
+$lang['back']  = "voltar";
+$lang['email']  = "E-mail:";
+$lang['aim']  = "AIM:";
+$lang['icq']  = "ICQ:";
+$lang['yahoo']  = "Yahoo:";
+$lang['msn']  = "MSN:";
+$lang['pm']  = "Enviar mensagem:";
+$lang['page_title']  = "Exibindo o perfil do usuário";
+$lang['find_posts']  = "Mostrar todos os posts deste usuário";
+$lang['add_to_contact']  = "Adicionar à lista de contatos";
+$lang['edit_my_sig']  = "Editar minha assinatura";
+$lang['edit_profile']  = "Editar meus dados";
+$lang['edit_avatar']  = "Editar meu avatar";
+$lang['mgroup']  = "Grupo:";
+$lang['mtitle']  = "Título:";
+$lang['homepage']  = "WebSite:";
+$lang['birthday']  = "Aniversário:";
+$lang['location']  = "Localidade:";
+$lang['interests']  = "Interesses:";
+$lang['avatar']  = "Avatar:";
+$lang['siggie']  = "Assinatura:";
+
+?>

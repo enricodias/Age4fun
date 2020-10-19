@@ -1,0 +1,23 @@
+<?php if (!defined("WsSys_Token")) {echo "<title>ERRO - Acesso Negado!</title><font face=\"verdana\" size=\"2\" color=\"#CC0000\"><b>[ Erro ]</b> Você não pode acessar este arquivo!</font>"; exit; } ?>
+session|ip|time|data:vars
+e6a6344cdcd4bbd9bfcda78f7b229a28||1402806227|unique:da6ef13379;cat:principal
+220168a818a7426b126872b32221d68a||1402806228|unique:428839ab4b;cat:principal
+e26eac1186bf3bd35da82990cf69e825||1402806228|unique:7f11416cd6;cat:principal
+9a98121864e336a5a07d9eecbf9bd049||1402806229|unique:9358460a54;cat:principal
+b28b9b5810bea190757b0124a8f89a40||1402806229|unique:48f79036b2;cat:principal
+ba74c5466ddc09b0843e2013f18cb100||1402806230|unique:be06a8dbe7;cat:principal
+ce8d0c76a7236f71fcccd3855dfeb736||1402806230|unique:1d421ea4fb;cat:principal
+a842cada30cfc904d23eef6f9a198b10||1402806231|unique:82388ac49e;cat:principal
+570972e94b97b420131e8f781145aa6f||1402806231|unique:ae7dfda890;cat:principal
+48a24ee28e846733e4a59ec6ff76517c||1402806232|unique:b5ccf7e588;cat:principal
+5637e436160d467328eb9e17a9ec9a98||1402806233|unique:a37d542a15;cat:principal
+9a432240393900e9c684c5419a3415e0||1402806233|unique:cd749a8a52;cat:principal
+db92b63ceb489543b097899ba344b1f1||1402806234|unique:8adc356623;cat:principal
+6468927339cfa4c8052021bbf4e3d75d||1402806235|unique:d41626ca41;cat:principal
+e8bccf35a765b2295bcf0659fe963ba2||1402806235|unique:fe46da2d2a;cat:principal
+b3a176281bdaf5fc3b125225f1c1f050||1402806236|unique:818c4c1e97;cat:principal
+38f2eb9a817a139c9f575ac754c15f1d||1402806237|unique:d906f180de;cat:principal
+cbc6be3222401ad146b7a541f931c347||1402806237|unique:fb7fe5e6eb;cat:principal
+518453a2804e3e93384fbceb3d77a76d||1402806238|unique:b2a4ef95d0;cat:principal
+1d3b4da3ad6e51a04ef1512e901504c6||1402806239|unique:c90d841a2c;cat:principal
+20da9e64a8a0954bc8c8c60abd5b639d||1402806240|unique:ab09acf079;cat:principal

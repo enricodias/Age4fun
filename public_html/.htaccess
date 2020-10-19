@@ -1,0 +1,32 @@
+RewriteEngine On
+RewriteBase /
+
+#subdomain with directory
+RewriteCond %{HTTP_HOST} (.*)\.age4fun\.com$
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_URI} !-d
+RewriteRule ^$ /%1 [L]
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^age4fun\.com
+RewriteRule ^(.*)$ http://www.age4fun.com/$1 [R=permanent,L]
+
+
+
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.age4fun.com
+AuthUserFile /home/syndi/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/syndi/public_html/_vti_pvt/service.grp

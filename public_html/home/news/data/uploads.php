@@ -1,0 +1,2 @@
+<?php if (!defined("WsSys_Token")) {echo "<title>ERRO - Acesso Negado!</title><font face=\"verdana\" size=\"2\" color=\"#CC0000\"><b>[ Erro ]</b> Você não pode acessar este arquivo!</font>"; exit; } ?>
+id|name|size|time|user

@@ -1,0 +1,11 @@
+<?php
+$textcolor='#FFFFFF';
+$linkcolor='#FFFFFF';
+$bgcolor='#F0ECF0';
+$tableborder='#FFFFFF';
+$timeout='0';
+$ip_file='/home/syndi/public_html/home/enquete/ip.txt';
+$font='Tahoma';
+$fontsize='1';
+$datafile='/home/syndi/public_html/home/enquete/dados.txt';
+?>
